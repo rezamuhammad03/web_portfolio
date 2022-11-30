@@ -13,12 +13,7 @@ class Home extends Component {
     return (
       <main>
         <section className="container-half mx-auto my-5 bg-blue-300 text-center px-5 py-3 rounded-xl text-white flex flex-col gap-2 border-2 border-white">
-          <div
-            className="container-full flex justify-center"
-            initial={{ y: 10 }}
-            animate={{ y: 0 }}
-            transition={{ duration: 0.4 }}
-          >
+          <div className="container-full flex justify-center">
             <motion.img
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
