@@ -13,23 +13,26 @@ class Home extends Component {
     return (
       <main>
         <section className="container-half mx-auto my-5 bg-blue-300 text-center px-5 py-3 rounded-xl text-white flex flex-col gap-2 border-2 border-white">
-          <motion.div
+          <div
             className="container-full flex justify-center"
             initial={{ y: 10 }}
             animate={{ y: 0 }}
-            transition={{ duration: 0.3 }}
+            transition={{ duration: 0.4 }}
           >
-            <img
+            <motion.img
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              transition={{ duration: 0.4 }}
               src={saya}
               alt="saya"
               className="foto rounded-full bingkai relative"
             />
-          </motion.div>
+          </div>
           <motion.div
             className="container-full font-bold"
             initial={{ y: 10 }}
             animate={{ y: 0 }}
-            transition={{ duration: 0.3 }}
+            transition={{ duration: 0.4 }}
           >
             <p>Muhamad syahreza Jaelani</p>
           </motion.div>
@@ -41,7 +44,7 @@ class Home extends Component {
               <motion.p
                 initial={{ y: 10 }}
                 animate={{ y: 0 }}
-                transition={{ duration: 0.3 }}
+                transition={{ duration: 0.4 }}
               >
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Veritatis, praesentium! Necessitatibus praesentium, voluptates
@@ -57,7 +60,7 @@ class Home extends Component {
                 className="foto"
                 initial={{ y: 10 }}
                 animate={{ y: 0 }}
-                transition={{ duration: 0.3 }}
+                transition={{ duration: 0.4 }}
               />
             </div>
           </div>
@@ -69,7 +72,7 @@ class Home extends Component {
               <motion.p
                 initial={{ y: 10 }}
                 animate={{ y: 0 }}
-                transition={{ duration: 0.3 }}
+                transition={{ duration: 0.4 }}
               >
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Dolorum repellendus laborum, voluptas architecto ipsum, quas
@@ -82,7 +85,7 @@ class Home extends Component {
                 className="box flex flex-col align-middle justify-center border-2 border-white rounded-lg"
                 initial={{ y: 10 }}
                 animate={{ y: 0 }}
-                transition={{ duration: 0.3 }}
+                transition={{ duration: 0.4 }}
               >
                 <div className="box-header text-center bg-blue-500 border-b-2 rounded-lg p-1">
                   Header
@@ -105,7 +108,7 @@ class Home extends Component {
                 className="box flex flex-col align-middle justify-center border-2 border-white rounded-lg"
                 initial={{ y: 10 }}
                 animate={{ y: 0 }}
-                transition={{ duration: 0.3 }}
+                transition={{ duration: 0.4 }}
               >
                 <div className="box-header text-center bg-blue-500 border-b-2 rounded-lg p-1">
                   Header
@@ -122,7 +125,7 @@ class Home extends Component {
               <motion.p
                 initial={{ y: 10 }}
                 animate={{ y: 0 }}
-                transition={{ duration: 0.3 }}
+                transition={{ duration: 0.4 }}
               >
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Dolorum repellendus laborum, voluptas architecto ipsum, quas
